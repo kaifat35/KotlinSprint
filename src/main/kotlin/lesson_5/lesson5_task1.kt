@@ -1,9 +1,11 @@
 package org.example.lesson_5
 
 fun main() {
-    print("Сложи 2+2=")
+    val a = 2
+    val b = 2
+    print("Введи результат сложения: $a + $b = ")
     val input = readln().toInt()
-    if (input == 4) {
+    if (input == a + b) {
         print("Добро пожаловать!")
     } else {
         print("Доступ запрещен.")
